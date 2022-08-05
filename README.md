@@ -1,1 +1,3 @@
-# Arduino-SmartFarmProject
+# Arduino-SmartFarmProject  
+  
+구글 "스마트팜" 어플리케이션과 연동을 통해 스마트팜을 제어할 수 있도록 도와주는 아두이노에 적용하여야 하는 코드입니다

@@ -168,7 +168,7 @@ void setup() {
   Firebase.RTDB.setStreamCallback(&stream, streamCallback, streamTimeoutCallback);
   Serial.println("[INFO] Firebase 초기 설정 완료");
   Serial.println("[INFO] RTC 모듈 시작");
-  // startRTC();
+  startRTC();
 
   
 
@@ -176,7 +176,7 @@ void setup() {
 }
 
 void loop() {
-  // conditionCheck();
+  conditionCheck();
   updateSensorValue();
   delay(500);
 }
@@ -301,7 +301,6 @@ void streamCallback(FirebaseStream data) {
   windowTimeEnd1 = getEndTime(doc,"Window",0);
   windowTimeEnd2 = getEndTime(doc,"Window",1);
   windowTimeEnd3 = getEndTime(doc,"Window",2);
-  Serial.println(windowTimeEnd3);
 }
 
 // 활성화 여부

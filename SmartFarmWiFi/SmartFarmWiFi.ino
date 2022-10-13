@@ -24,11 +24,11 @@ ESP8266@3
 #include "ArduinoJson.h"
 
 /* Firebase와 ESP8266 초기설정 */
-#define DATABASE_URL "https://smartfarm-d2094-default-rtdb.firebaseio.com"  // 데이터베이스 주소
-#define API_KEY "AIzaSyAVWQ0rAWFws_ROu7YlkNYNkaSoXDAjqXk"                   // 웹API키
+#define DATABASE_URL ""  // 데이터베이스 주소
+#define API_KEY ""                   // 웹API키
 
-#define WIFI_SSID "olleh_WiFi_64F3"  // 연결 할 네트워크 명
-#define WIFI_PASSWORD "0000005821"   // 연결 할 네트워크 비밀번호
+#define WIFI_SSID ""  // 연결 할 네트워크 명
+#define WIFI_PASSWORD ""   // 연결 할 네트워크 비밀번호
 
 #define DATABASE_FARM_KEY "farms/dyms/plant"
 
